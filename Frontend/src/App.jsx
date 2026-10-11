@@ -10,7 +10,7 @@ function App() {
   const [shortUrl, setShortUrl] = useState("");
   const [copied, setCopied] = useState(false);
   const [qrImage, setQrImage] = useState("");
-  cosnt[loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleShorten = async () => {
     if (!url||loading) return;
